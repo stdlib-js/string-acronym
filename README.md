@@ -52,7 +52,7 @@ npm install @stdlib/string-acronym
 var acronym = require( '@stdlib/string-acronym' );
 ```
 
-#### acronym( str[, options] )
+#### acronym( str\[, options] )
 
 Generates an acronym for a given string.
 
@@ -68,7 +68,6 @@ The function accepts the following `options`:
 
 -   **stopwords**: list of custom stop words. If not specified, the function uses [@stdlib/datasets/stopwords-en][@stdlib/datasets/stopwords-en].
 
-
 By default, the function uses a list of common English stop words. To use a custom list, set the `stopwords` option.
 
 ```javascript
@@ -78,7 +77,7 @@ var out = acronym( 'the quick brown fox', {
 // returns 'TQBF'
 
 out = acronym( 'the quick brown fox', {
-	'stopwords': [ 'the', 'quick', 'brown', 'fox' ]
+    'stopwords': [ 'the', 'quick', 'brown', 'fox' ]
 });
 // returns ''
 ```
@@ -120,7 +119,7 @@ out = acronym( str );
 
 str = 'To be determined...';
 out = acronym( str, {
-	'stopwords': []
+    'stopwords': []
 });
 // returns 'TBD'
 ```
@@ -128,7 +127,6 @@ out = acronym( str, {
 </section>
 
 <!-- /.examples -->
-
 
 <!-- Section for describing a command-line interface. -->
 
@@ -203,6 +201,14 @@ QBF
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -260,7 +266,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-acronym/main/LICENSE
 
-[@stdlib/datasets/stopwords-en]: https://github.com/stdlib-js/stdlib
+[@stdlib/datasets/stopwords-en]: https://github.com/stdlib-js/datasets-stopwords-en
 
 </section>
 
