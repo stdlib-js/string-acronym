@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-acronym",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate an acronym for a given string.",
   "license": "Apache-2.0",
   "author": {
@@ -43,6 +43,7 @@
     "@stdlib/assert-has-own-property": "^0.0.x",
     "@stdlib/assert-is-empty-array": "^0.0.x",
     "@stdlib/assert-is-plain-object": "^0.0.x",
+    "@stdlib/assert-is-regexp-string": "^0.0.x",
     "@stdlib/assert-is-string": "^0.0.x",
     "@stdlib/assert-is-string-array": "^0.0.x",
     "@stdlib/cli-ctor": "^0.0.x",
@@ -57,7 +58,8 @@
     "@stdlib/string-replace": "^0.0.x",
     "@stdlib/string-trim": "^0.0.x",
     "@stdlib/string-uppercase": "^0.0.x",
-    "@stdlib/types": "^0.0.x"
+    "@stdlib/types": "^0.0.x",
+    "@stdlib/utils-regexp-from-string": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.0.x",
