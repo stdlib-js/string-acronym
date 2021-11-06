@@ -171,6 +171,20 @@ Options:
 
 <section class="notes">
 
+### Notes
+
+-   If the split separator is a [regular expression][mdn-regexp], ensure that the `split` option is either properly escaped or enclosed in quotes.
+
+    ```bash
+    # Not escaped...
+    $ echo -n $'quick brown fox\nAlpha-Centauri' | acronym --split /\r?\n/
+
+    # Escaped...
+    $ echo -n $'quick brown fox\nAlpha-Centauri' | acronym --split /\\r?\\n/
+    ```
+
+-   The implementation ignores trailing delimiters.
+
 </section>
 
 <!-- /.notes -->
@@ -184,6 +198,21 @@ Options:
 ```bash
 $ acronym 'the quick brown fox'
 QBF
+```
+
+To use as a [standard stream][standard-streams],
+
+```bash
+$ echo -n 'the quick brown fox'' | acronym
+QBF
+```
+
+By default, when used as a [standard stream][standard-streams], the implementation assumes newline-delimited data. To specify an alternative delimiter, set the `split` option.
+
+```bash
+$ echo -n 'quick brown fox\tAlpha-Centauri' | acronym --split '\t'
+QBF
+AC
 ```
 
 </section>
@@ -255,7 +284,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/string-acronym/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/string-acronym?branch=main
 
- <!--
+<!--
 
 [dependencies-image]: https://img.shields.io/david/stdlib-js/string-acronym.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/string-acronym/main
@@ -270,6 +299,10 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-acronym/main/LICENSE
+
+[standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
+
+[mdn-regexp]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 
 [@stdlib/datasets/stopwords-en]: https://github.com/stdlib-js/datasets-stopwords-en
 
