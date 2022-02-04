@@ -46,7 +46,7 @@ Alternatively,
 
 -   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
 -   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the Universal Module Definition ([UMD][umd]) build available on the [`umd` branch][umd-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
 
 </section>
 
@@ -284,18 +284,6 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/string-acronym.svg
 [npm-url]: https://npmjs.org/package/@stdlib/string-acronym
 
-[deno-image]: https://img.shields.io/badge/Deno-gray?logo=deno&style=for-the-badge
-[deno-url]: https://github.com/stdlib-js/string-acronym/tree/deno
-
-[umd-image]: https://img.shields.io/badge/UMD-blue?logo=umd&style=for-the-badge
-[umd-url]: https://github.com/stdlib-js/string-acronym/tree/umd
-
-[esm-image]: https://img.shields.io/badge/ES%20Module-blue?logo=esm&style=for-the-badge
-[esm-url]: https://github.com/stdlib-js/string-acronym/tree/esm
-
-[umd]: https://github.com/umdjs/umd
-[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-
 [test-image]: https://github.com/stdlib-js/string-acronym/actions/workflows/test.yml/badge.svg
 [test-url]: https://github.com/stdlib-js/string-acronym/actions/workflows/test.yml
 
@@ -308,6 +296,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [dependencies-url]: https://david-dm.org/stdlib-js/string-acronym/main
 
 -->
+
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/string-acronym/tree/deno
+[umd-url]: https://github.com/stdlib-js/string-acronym/tree/umd
+[esm-url]: https://github.com/stdlib-js/string-acronym/tree/esm
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
