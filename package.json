@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-acronym",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Generate an acronym for a given string.",
   "license": "Apache-2.0",
   "author": {
@@ -52,6 +52,7 @@
     "@stdlib/process-read-stdin": "^0.0.x",
     "@stdlib/regexp-eol": "^0.0.x",
     "@stdlib/streams-node-stdin": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/string-lowercase": "^0.0.x",
     "@stdlib/string-remove-punctuation": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",
