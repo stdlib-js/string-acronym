@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,30 +16,43 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 2.0
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 /**
-* Generate an acronym for a given string.
+* Interface defining function options.
+*/
+interface Options {
+	/**
+	* Custom stop words.
+	*/
+	stopwords?: Array<string>;
+}
+
+/**
+* Generates an acronym for a given string.
 *
-* @module @stdlib/string-acronym
+* @param str - input string
+* @param options - function options
+* @param options.stopwords - custom stop words
+* @returns generated acronym
 *
 * @example
-* var acronym = require( '@stdlib/string-acronym' );
+* var out = acronym( 'the quick brown fox' );
+* // returns 'QBF'
 *
+* @example
+* var out = acronym( 'Hard-boiled eggs' );
+* // returns 'HBE'
+*
+* @example
 * var out = acronym( 'National Association of Securities Dealers Automated Quotation' );
 * // returns 'NASDAQ'
-*
-* out = acronym( 'To be determined...', {
-*     'stopwords': []
-* });
-* // returns 'TBD'
 */
-
-// MODULES //
-
-var acronym = require( './main.js' );
+declare function acronym( str: string, options?: Options ): string;
 
 
 // EXPORTS //
 
-module.exports = acronym;
+export = acronym;
