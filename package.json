@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-acronym",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Generate an acronym for a given string.",
   "license": "Apache-2.0",
   "author": {
