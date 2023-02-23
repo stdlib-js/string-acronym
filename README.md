@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@deno/mod.js';
+import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@v0.1.0-deno/mod.js';
 ```
 
 #### acronym( str\[, options] )
@@ -95,7 +95,7 @@ out = acronym( 'the quick brown fox', {
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@deno/mod.js';
+import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@v0.1.0-deno/mod.js';
 
 var str = 'Test-driven development';
 var out = acronym( str );
