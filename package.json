@@ -1,5 +1,5 @@
 {
-  "name": "@stdlib/string-acronym",
+  "name": "@stdlib/string-acronym-cli",
   "version": "0.3.0",
   "description": "Generate an acronym for a given string.",
   "license": "Apache-2.0",
@@ -16,21 +16,6 @@
   "bin": {
     "acronym": "./bin/cli"
   },
-  "main": "./lib",
-  "directories": {
-    "benchmark": "./benchmark",
-    "doc": "./docs",
-    "example": "./examples",
-    "lib": "./lib",
-    "test": "./test"
-  },
-  "types": "./docs/types",
-  "scripts": {
-    "test": "make test",
-    "test-cov": "make test-cov",
-    "examples": "make examples",
-    "benchmark": "make benchmark"
-  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -40,55 +25,26 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-contains": "^0.2.0",
-    "@stdlib/assert-has-own-property": "^0.2.0",
-    "@stdlib/assert-is-empty-array": "^0.2.0",
-    "@stdlib/assert-is-plain-object": "^0.2.0",
     "@stdlib/assert-is-regexp-string": "^0.2.0",
-    "@stdlib/assert-is-string": "^0.2.0",
-    "@stdlib/assert-is-string-array": "^0.2.0",
     "@stdlib/cli-ctor": "^0.2.0",
     "@stdlib/fs-read-file": "^0.2.0",
-    "@stdlib/nlp-tokenize": "^0.2.0",
     "@stdlib/process-read-stdin": "^0.2.0",
     "@stdlib/regexp-eol": "^0.2.0",
     "@stdlib/streams-node-stdin": "^0.2.0",
-    "@stdlib/string-base-lowercase": "^0.3.0",
-    "@stdlib/string-base-replace": "^0.2.0",
-    "@stdlib/string-base-uppercase": "^0.2.0",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.0",
-    "@stdlib/string-remove-punctuation": "^0.2.0",
     "@stdlib/string-trim": "^0.2.0",
-    "@stdlib/types": "^0.3.1",
-    "@stdlib/utils-regexp-from-string": "^0.2.0"
+    "@stdlib/utils-regexp-from-string": "^0.2.0",
+    "@stdlib/string-acronym": "0.3.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.0",
     "@stdlib/assert-is-windows": "^0.2.0",
     "@stdlib/process-exec-path": "^0.2.0",
-    "@stdlib/string-from-code-point": "^0.2.0",
     "@stdlib/string-replace": "^0.2.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "proxyquire": "^2.0.0",
     "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.0"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
   },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">2.7.0"
-  },
-  "os": [
-    "aix",
-    "darwin",
-    "freebsd",
-    "linux",
-    "macos",
-    "openbsd",
-    "sunos",
-    "win32",
-    "windows"
-  ],
   "keywords": [
     "stdlib",
     "stdstring",
