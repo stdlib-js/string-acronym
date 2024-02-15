@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-acronym/tags). For example,
+
+```javascript
 import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@v0.3.0-esm/index.mjs';
 ```
 
@@ -111,7 +116,7 @@ out = acronym( 'the quick brown fox', {
 <body>
 <script type="module">
 
-import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@v0.3.0-esm/index.mjs';
+import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@esm/index.mjs';
 
 var str = 'Test-driven development';
 var out = acronym( str );
