@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@esm/index.mjs';
+import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@v0.3.1-esm/index.mjs';
 ```
 
 #### acronym( str\[, options] )
@@ -111,7 +111,7 @@ out = acronym( 'the quick brown fox', {
 <body>
 <script type="module">
 
-import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@esm/index.mjs';
+import acronym from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-acronym@v0.3.1-esm/index.mjs';
 
 var str = 'Test-driven development';
 var out = acronym( str );
