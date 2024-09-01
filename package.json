@@ -56,7 +56,7 @@
     "@stdlib/string-base-lowercase": "^0.4.0",
     "@stdlib/string-base-replace": "^0.2.2",
     "@stdlib/string-base-uppercase": "^1.0.0",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/string-remove-punctuation": "^0.2.2",
     "@stdlib/string-trim": "^0.2.2",
     "@stdlib/types": "^0.4.1",
