@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/array-base-assert-contains": "^0.2.3",
     "@stdlib/assert-has-own-property": "^0.2.3",
     "@stdlib/assert-is-empty-array": "^0.2.3",
     "@stdlib/assert-is-plain-object": "^0.2.3",
