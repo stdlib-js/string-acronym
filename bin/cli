@@ -31,7 +31,7 @@ var RE_EOL = require( '@stdlib/regexp-eol' ).REGEXP;
 var isRegExpString = require( '@stdlib/assert-is-regexp-string' );
 var reFromString = require( '@stdlib/utils-regexp-from-string' );
 var trim = require( '@stdlib/string-trim' );
-var acronym = require( './../lib' );
+var acronym = require( '@stdlib/string-acronym' );
 
 
 // MAIN //
